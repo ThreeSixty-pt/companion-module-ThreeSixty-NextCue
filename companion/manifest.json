@@ -1,0 +1,23 @@
+{
+  "id": "threesixty-nextcue",
+  "name": "threesixty-nextcue",
+  "shortname": "NextCue",
+  "description": "Control NextCue timer software by ThreeSixty.pt — transport, cue navigation, time adjustments, fullscreen/NDI/blackout, overlay messages.",
+  "version": "1.0.0",
+  "license": "MIT",
+  "repository": "https://threesixty.pt",
+  "bugs": "mailto:support@threesixty.pt",
+  "maintainers": [
+    { "name": "ThreeSixty.pt", "email": "support@threesixty.pt" }
+  ],
+  "legacyIds": [],
+  "runtime": {
+    "type": "node18",
+    "api": "nodejs-ipc",
+    "apiVersion": "1.7.1",
+    "entrypoint": "../main.js"
+  },
+  "manufacturer": "ThreeSixty.pt",
+  "products": ["NextCue"],
+  "keywords": ["Timer", "Cue", "Presentation", "Broadcast", "NextCue"]
+}
